@@ -51,8 +51,10 @@ create table operator(
 	password char(60) not null
 );
 
+insert into operator(id,name,surname,email,password) values(
+null,'Kristijan','Baro','baro.kristijan@gmail.com','$2y$10$ZHXft4hWvvgl8HIzHc4FEemQKLr0ZAj4DX3r0kBTi4e.e67woaoQS');
 
-/*teams insert*/
+/*team insert*/
 
 insert into team (id,title,manager,ground,ground_capacity,since,trophy,city) values(
 null,'Manchester','Ole','Old Traford',45000,1900,null,'Manchester');
